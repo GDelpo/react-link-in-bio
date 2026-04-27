@@ -1,8 +1,8 @@
-// Datos base del owner del sitio. Customizar al hacer fork.
+// Datos base del owner del sitio. Reemplazar por los reales al hacer fork.
 const personalInfoBase = {
-  nacimiento: '01.01.1990',
-  ciudad: 'Your City, Country',
-  email: 'hello@example.com',
+  nacimiento: '15.03.1992',
+  ciudad: 'Buenos Aires, Argentina',
+  email: 'hola@example.com',
   telefono: '+54 9 11 0000 0000',
 };
 
@@ -13,19 +13,28 @@ export const personalInfo = {
   edad: calcularEdad(personalInfoBase.nacimiento),
 };
 
-// Bloque opcional — si no usás secciones de educación/experiencia, exportar arrays vacíos.
 export const education = [
   {
-    date: '2018 - 2022',
-    title: 'Título universitario',
+    date: '2010 - 2014',
+    title: 'Licenciatura en Ciencias del Deporte',
     subtitle: 'Universidad de Ejemplo',
+  },
+  {
+    date: '2018',
+    title: 'Certificación en Coaching Online',
+    subtitle: 'Academia Internacional de Coaches',
   },
 ];
 
 export const experience = [
   {
-    date: '2022 - Presente',
-    title: 'Rol Actual',
-    subtitle: 'Empresa / Proyecto',
+    date: '2020 - Presente',
+    title: 'Coach Online Independiente',
+    subtitle: 'Programas y mentoría 1:1',
+  },
+  {
+    date: '2015 - 2020',
+    title: 'Entrenador en Centro Deportivo',
+    subtitle: 'Club Atlético Ejemplo',
   },
 ];

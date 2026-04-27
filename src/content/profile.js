@@ -9,29 +9,27 @@ import { personalizedPlanLink } from './contact';
 
 const emailLink = `mailto:${personalInfo.email}`;
 
-// Datos públicos del perfil. Customizar al hacer fork.
 export const profileData = {
-  name: 'Your Name',
+  name: 'Sam Carter',
   titles: [
-    'Title or role 1',
-    'Title or role 2',
-    'Tagline corta',
+    'Coach online.',
+    'Educador en hábitos.',
+    'Creador de contenido.',
   ],
   description:
-    'Descripción breve para el header. Una a dos oraciones que expliquen qué hacés y a quién va dirigido el sitio.',
-  // Reemplazar por una URL pública (CDN, S3, hosting de imágenes) o un asset en /public.
+    'Te ayudo a construir hábitos consistentes a través de programas estructurados y mentoría personalizada. 10+ años acompañando procesos de cambio.',
   profileImage: '/profile-placeholder.svg',
   profileImageAlt: 'Foto de perfil',
   socials: [
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/your-handle/',
+      url: 'https://www.instagram.com/samcarter.demo/',
       Icon: SiInstagram,
       hoverClass: 'hover:bg-[#E4405F]',
     },
     {
       name: 'YouTube',
-      url: 'https://www.youtube.com/@your-channel',
+      url: 'https://www.youtube.com/@samcarter.demo',
       Icon: SiYoutube,
       hoverClass: 'hover:bg-[#FF0000]',
     },

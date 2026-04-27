@@ -12,6 +12,8 @@
 
 Pensado como punto de partida para páginas personales, landings de creadores, vidrieras de producto. Se forkea, se editan los datos en `src/content/`, se deployea.
 
+El repo viene con un **demo completo** (persona ficticia _Sam Carter_, coach online) — corré `npm run dev` y vas a ver el sitio funcionando con datos coherentes en cada sección. Reemplazá los archivos de `src/content/` con los tuyos al forkear.
+
 ## Features
 
 - React 19 + Vite 7 + Tailwind CSS v4 (browser plugin)
